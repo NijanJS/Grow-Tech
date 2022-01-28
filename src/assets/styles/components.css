@@ -1,0 +1,41 @@
+.navbar {
+  width: 85vw;
+}
+.btn {
+  color: white;
+  background: linear-gradient(90deg, var(--c-pri), var(--c-sec) 126%);
+  border-radius: 20px;
+  width: 140px;
+  transition: 300ms;
+  height: 50px;
+}
+.primary span {
+  border-radius: 16px;
+}
+.primary {
+  padding: 3px;
+  background: linear-gradient(90deg, var(--c-pri), var(--c-sec) 126%);
+}
+.nav-btn {
+  padding: 12px 24px;
+  width: auto;
+  height: auto;
+}
+.trans span {
+  background: white;
+  outline: none;
+  height: 99%;
+  width: 100%;
+  transition: 300ms;
+  margin: auto;
+}
+.cream span {
+  background: #f6f9fc;
+}
+.trans:hover span {
+  background: transparent;
+  color: white;
+}
+button:active {
+  transform: scale(0.9);
+}

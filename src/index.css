@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Red+Hat+Display:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --f-pri: 'Red Hat Display', sans-serif;
+  --f-sec: 'IBM Plex Sans', sans-serif;
+  --c-pri: #0000004f;
+  --c-sec: #ed2222;
+  --c-pink: #f34e77;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: 300ms;
+}
+body {
+  overflow-x: hidden;
+}
+.app {
+  overflow-x: hidden !important;
+  max-width: 100vw;
+  max-height: 100%;
+}
+.head {
+  font-family: var(--f-pri);
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+}
+.body {
+  color: white;
+  font-family: var(--f-sec);
+  font-family: 16px;
+  font-weight: 400;
+}
+
+.red-hat {
+  font-weight: 700;
+  font-family: var(--f-pri);
+}
+.ibm {
+  font-family: var(--f-sec);
+}
+.sub-header {
+  color: '#165EAD';
+  font-size: 40px;
+  font-family: var(--f-pri);
+  font-weight: 900;
+}
+.about {
+  overflow-x: hidden !important;
+}
+.small-circle {
+  width: 70px;
+  height: 70px;
+  z-index: 0;
+  background: #f34e77;
+}
+.top {
+  left: 6.5vw;
+  top: -3.5vh;
+}
+.bottom {
+  bottom: -3.5vh !important;
+  right: 6.5vw;
+}
+.project-container {
+  z-index: 2;
+}
+.client {
+  width: 230px;
+  height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+}
