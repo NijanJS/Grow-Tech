@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.9db4e88e.css",
-    "main.js": "/static/js/main.6cdcd1f0.js",
-    "static/media/bg.png": "/static/media/bg.4d0797b80925f9455179.png",
-    "static/media/degi.png": "/static/media/degi.ea999148181aa1880388.png",
-    "static/media/gyapu.png": "/static/media/gyapu.3429459c2f13c1f88ec6.png",
-    "static/media/client.png": "/static/media/client.aa983595c747d2f15c75.png",
-    "static/media/bg2.png": "/static/media/bg2.68672785862cbf92c198.png",
-    "static/media/client.jpg": "/static/media/client.75262d49c01f3ecf9421.jpg",
-    "static/media/element-about.png": "/static/media/element-about.45bc3ed0cf7d856f1fd9.png",
-    "static/media/web.png": "/static/media/web.a59a37cfcb0431e0400b.png",
-    "static/media/app.png": "/static/media/app.d0f899a41a716718879d.png",
-    "static/media/enterprise.png": "/static/media/enterprise.500c33e24fc3f8229f26.png",
-    "static/media/hosting.png": "/static/media/hosting.fdfd5ed1b07ec8366024.png",
-    "static/media/police.png": "/static/media/police.bc58f526c456c509826b.png",
-    "static/media/Pattern.png": "/static/media/Pattern.b1c31955498122deecf1.png",
-    "index.html": "/index.html",
-    "main.9db4e88e.css.map": "/static/css/main.9db4e88e.css.map",
-    "main.6cdcd1f0.js.map": "/static/js/main.6cdcd1f0.js.map"
+    "main.css": "/Grow-Tech/static/css/main.f45936ce.css",
+    "main.js": "/Grow-Tech/static/js/main.ea4a48b8.js",
+    "static/media/bg.png": "/Grow-Tech/static/media/bg.4d0797b80925f9455179.png",
+    "static/media/degi.png": "/Grow-Tech/static/media/degi.ea999148181aa1880388.png",
+    "static/media/gyapu.png": "/Grow-Tech/static/media/gyapu.3429459c2f13c1f88ec6.png",
+    "static/media/client.png": "/Grow-Tech/static/media/client.aa983595c747d2f15c75.png",
+    "static/media/bg2.png": "/Grow-Tech/static/media/bg2.68672785862cbf92c198.png",
+    "static/media/client.jpg": "/Grow-Tech/static/media/client.75262d49c01f3ecf9421.jpg",
+    "static/media/element-about.png": "/Grow-Tech/static/media/element-about.45bc3ed0cf7d856f1fd9.png",
+    "static/media/web.png": "/Grow-Tech/static/media/web.a59a37cfcb0431e0400b.png",
+    "static/media/app.png": "/Grow-Tech/static/media/app.d0f899a41a716718879d.png",
+    "static/media/enterprise.png": "/Grow-Tech/static/media/enterprise.500c33e24fc3f8229f26.png",
+    "static/media/hosting.png": "/Grow-Tech/static/media/hosting.fdfd5ed1b07ec8366024.png",
+    "static/media/police.png": "/Grow-Tech/static/media/police.bc58f526c456c509826b.png",
+    "static/media/Pattern.png": "/Grow-Tech/static/media/Pattern.b1c31955498122deecf1.png",
+    "index.html": "/Grow-Tech/index.html",
+    "main.f45936ce.css.map": "/Grow-Tech/static/css/main.f45936ce.css.map",
+    "main.ea4a48b8.js.map": "/Grow-Tech/static/js/main.ea4a48b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9db4e88e.css",
-    "static/js/main.6cdcd1f0.js"
+    "static/css/main.f45936ce.css",
+    "static/js/main.ea4a48b8.js"
   ]
 }
