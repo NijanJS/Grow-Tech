@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
-import client from '../../assets/images/client.jpg';
 import { testimonials } from '../../constants/constants';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';

@@ -18,7 +18,6 @@ function Services() {
   const handleActive = (k) => {
     const list = document.querySelectorAll('.list');
     const activeList = document.querySelectorAll('.active');
-    const circle = document.querySelector('.circle');
     list[k].classList.add('active');
     setData({
       header: services[k].content.header,
