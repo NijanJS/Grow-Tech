@@ -40,11 +40,11 @@ function Services() {
       <span
         className="circle absolute"
         style={{ background: data.nextColor }}></span>
-      <div className="my-5 page min-w-full w-screen h-full flex justify-around items-center service-item">
+      <div className="my-5 page min-w-full w-screen h-full flex justify-evenly items-center service-item">
         <div
-          className="w-2/5 h-2/6 text-section flex flex-col justify-around items-start gap-10"
+          className="w-2/5 h-2/6 text-section  flex flex-col justify-around items-start gap-10"
           data-aos="fade-up">
-          <div className="header flex flex-col gap-3 item-end h-2/6 mt-5">
+          <div className="header flex flex-col service-header gap-3 item-end h-2/6 mt-5">
             <span className="text-grey">Area of focus</span>
             <h2 className="sub-header" style={{ color: '#165EAD' }}>
               Our service

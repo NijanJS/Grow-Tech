@@ -152,6 +152,22 @@
   gap: 120px;
 }
 
+.small-circle {
+  width: 70px;
+  height: 70px;
+  z-index: 0;
+  position: absolute;
+  border-radius: 50%;
+  background: #f34e77;
+}
+.top {
+  left: 6.5vw;
+  top: -3.5vh;
+}
+.bottom {
+  bottom: -3.5vh !important;
+  right: 6.5vw;
+}
 @media (max-width: 640px) {
   .projects-info {
     width: 80%;
@@ -172,6 +188,12 @@
   }
   .testimonials {
     width: 80%;
+  }
+  .top {
+    left: 0;
+  }
+  .bottom {
+    right: 0;
   }
 }
 
@@ -199,6 +221,7 @@
   .text-section {
     width: 100%;
   }
+
   .head {
     font-size: 24px;
   }
@@ -214,6 +237,7 @@
   .about .element {
     display: none;
   }
+
   /* About Page */
   /* Service Page */
 
@@ -234,6 +258,11 @@
   .projects-no {
     width: 100%;
     margin: 1em 0;
+  }
+  .img-info {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1em;
   }
   .clients {
     grid-template-columns: repeat(2, 1fr);
@@ -274,6 +303,9 @@
     gap: 10px;
     margin-bottom: 5px;
   }
+  .service-header {
+    margin-left: 10px;
+  }
   .home-container {
     gap: 30px;
   }
@@ -284,6 +316,9 @@
   }
   .project-container > div {
     width: 100%;
+  }
+  .logo {
+    width: 150px;
   }
 }
 @media (max-width: 1280px) {

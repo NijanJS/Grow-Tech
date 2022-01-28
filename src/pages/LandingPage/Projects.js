@@ -8,8 +8,8 @@ function Projects() {
     <div
       className="w-screen h-full flex flex-col items-center justify-start gap-5 relative z-3"
       style={{ background: '#F6F9FC' }}>
-      <span className="top small-circle  absolute rounded-full top"></span>
-      <span className="bottom small-circle  absolute rounded-full "></span>
+      <span className="top small-circle  "></span>
+      <span className="bottom small-circle "></span>
 
       <div
         className="w-5/6 flex flex-col items-center justify-between relative"
@@ -37,7 +37,7 @@ function Projects() {
                 </p>
               </div>
               <Button
-                title="Read More"
+                title="Visit Site"
                 type="primary"
                 styles="trans cream"
                 span="text-grey"
