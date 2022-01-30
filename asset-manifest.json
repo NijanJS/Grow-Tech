@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Grow-Tech/static/css/main.e609ec38.css",
-    "main.js": "/Grow-Tech/static/js/main.da4f7177.js",
+    "main.js": "/Grow-Tech/static/js/main.cd39f521.js",
     "static/media/bg.png": "/Grow-Tech/static/media/bg.4d0797b80925f9455179.png",
     "static/media/degi.png": "/Grow-Tech/static/media/degi.ea999148181aa1880388.png",
     "static/media/gyapu.png": "/Grow-Tech/static/media/gyapu.3429459c2f13c1f88ec6.png",
@@ -26,10 +26,10 @@
     "static/media/flutter.png": "/Grow-Tech/static/media/flutter.e874018e42aa63078a67.png",
     "index.html": "/Grow-Tech/index.html",
     "main.e609ec38.css.map": "/Grow-Tech/static/css/main.e609ec38.css.map",
-    "main.da4f7177.js.map": "/Grow-Tech/static/js/main.da4f7177.js.map"
+    "main.cd39f521.js.map": "/Grow-Tech/static/js/main.cd39f521.js.map"
   },
   "entrypoints": [
     "static/css/main.e609ec38.css",
-    "static/js/main.da4f7177.js"
+    "static/js/main.cd39f521.js"
   ]
 }
