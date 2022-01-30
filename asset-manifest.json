@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Grow-Tech/static/css/main.126cc05d.css",
-    "main.js": "/Grow-Tech/static/js/main.239dab01.js",
+    "main.css": "/Grow-Tech/static/css/main.e609ec38.css",
+    "main.js": "/Grow-Tech/static/js/main.da4f7177.js",
     "static/media/bg.png": "/Grow-Tech/static/media/bg.4d0797b80925f9455179.png",
     "static/media/degi.png": "/Grow-Tech/static/media/degi.ea999148181aa1880388.png",
     "static/media/gyapu.png": "/Grow-Tech/static/media/gyapu.3429459c2f13c1f88ec6.png",
@@ -15,12 +15,21 @@
     "static/media/hosting.png": "/Grow-Tech/static/media/hosting.fdfd5ed1b07ec8366024.png",
     "static/media/police.png": "/Grow-Tech/static/media/police.bc58f526c456c509826b.png",
     "static/media/Pattern.png": "/Grow-Tech/static/media/Pattern.b1c31955498122deecf1.png",
+    "static/media/sass.png": "/Grow-Tech/static/media/sass.a655efb0565489b66c7b.png",
+    "static/media/mongo.png": "/Grow-Tech/static/media/mongo.592d5d24c231a6d64142.png",
+    "static/media/figma.png": "/Grow-Tech/static/media/figma.5f690031f300a3bb1b38.png",
+    "static/media/react.png": "/Grow-Tech/static/media/react.031491d68d0aeb2003be.png",
+    "static/media/java.png": "/Grow-Tech/static/media/java.56002822d1fe8489608c.png",
+    "static/media/css.png": "/Grow-Tech/static/media/css.a3de48391d16c54b2480.png",
+    "static/media/html.png": "/Grow-Tech/static/media/html.c3088c6bb7e2112eac5c.png",
+    "static/media/vue.png": "/Grow-Tech/static/media/vue.d3125908547389188282.png",
+    "static/media/flutter.png": "/Grow-Tech/static/media/flutter.e874018e42aa63078a67.png",
     "index.html": "/Grow-Tech/index.html",
-    "main.126cc05d.css.map": "/Grow-Tech/static/css/main.126cc05d.css.map",
-    "main.239dab01.js.map": "/Grow-Tech/static/js/main.239dab01.js.map"
+    "main.e609ec38.css.map": "/Grow-Tech/static/css/main.e609ec38.css.map",
+    "main.da4f7177.js.map": "/Grow-Tech/static/js/main.da4f7177.js.map"
   },
   "entrypoints": [
-    "static/css/main.126cc05d.css",
-    "static/js/main.239dab01.js"
+    "static/css/main.e609ec38.css",
+    "static/js/main.da4f7177.js"
   ]
 }
