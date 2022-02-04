@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Grow-Tech/static/css/main.a23ad959.css",
-    "main.js": "/Grow-Tech/static/js/main.00f189cf.js",
+    "main.css": "/Grow-Tech/static/css/main.cf1a0776.css",
+    "main.js": "/Grow-Tech/static/js/main.34bc576b.js",
     "static/media/bg.png": "/Grow-Tech/static/media/bg.4d0797b80925f9455179.png",
     "static/media/degi.png": "/Grow-Tech/static/media/degi.ea999148181aa1880388.png",
     "static/media/gyapu.png": "/Grow-Tech/static/media/gyapu.3429459c2f13c1f88ec6.png",
@@ -32,11 +32,11 @@
     "static/media/idea.svg": "/Grow-Tech/static/media/idea.83ea27fa20231860de9d05f8b79af61f.svg",
     "index.html": "/Grow-Tech/index.html",
     "static/media/rook.svg": "/Grow-Tech/static/media/rook.8c785baa5f8703c10d2028489ac2c028.svg",
-    "main.a23ad959.css.map": "/Grow-Tech/static/css/main.a23ad959.css.map",
-    "main.00f189cf.js.map": "/Grow-Tech/static/js/main.00f189cf.js.map"
+    "main.cf1a0776.css.map": "/Grow-Tech/static/css/main.cf1a0776.css.map",
+    "main.34bc576b.js.map": "/Grow-Tech/static/js/main.34bc576b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a23ad959.css",
-    "static/js/main.00f189cf.js"
+    "static/css/main.cf1a0776.css",
+    "static/js/main.34bc576b.js"
   ]
 }
