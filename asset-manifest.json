@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Grow-Tech/static/css/main.13d085a9.css",
-    "main.js": "/Grow-Tech/static/js/main.83c64db7.js",
+    "main.css": "/Grow-Tech/static/css/main.12d13871.css",
+    "main.js": "/Grow-Tech/static/js/main.ccfe4bcc.js",
     "static/media/bg.png": "/Grow-Tech/static/media/bg.4d0797b80925f9455179.png",
     "static/media/degi.png": "/Grow-Tech/static/media/degi.ea999148181aa1880388.png",
     "static/media/gyapu.png": "/Grow-Tech/static/media/gyapu.3429459c2f13c1f88ec6.png",
@@ -15,28 +15,25 @@
     "static/media/hosting.png": "/Grow-Tech/static/media/hosting.fdfd5ed1b07ec8366024.png",
     "static/media/police.png": "/Grow-Tech/static/media/police.bc58f526c456c509826b.png",
     "static/media/Pattern.png": "/Grow-Tech/static/media/Pattern.b1c31955498122deecf1.png",
-    "static/media/sass.png": "/Grow-Tech/static/media/sass.a655efb0565489b66c7b.png",
-    "static/media/mongo.png": "/Grow-Tech/static/media/mongo.592d5d24c231a6d64142.png",
-    "static/media/figma.png": "/Grow-Tech/static/media/figma.5f690031f300a3bb1b38.png",
-    "static/media/react.png": "/Grow-Tech/static/media/react.031491d68d0aeb2003be.png",
-    "static/media/java.png": "/Grow-Tech/static/media/java.56002822d1fe8489608c.png",
-    "static/media/css.png": "/Grow-Tech/static/media/css.a3de48391d16c54b2480.png",
-    "static/media/html.png": "/Grow-Tech/static/media/html.c3088c6bb7e2112eac5c.png",
-    "static/media/vue.png": "/Grow-Tech/static/media/vue.d3125908547389188282.png",
-    "static/media/flutter.png": "/Grow-Tech/static/media/flutter.e874018e42aa63078a67.png",
-    "static/media/cloud.svg": "/Grow-Tech/static/media/cloud.a9228eea7ccb9d05c0ce7af9a2c0afb6.svg",
-    "static/media/team.svg": "/Grow-Tech/static/media/team.ca35b74b045f8cc7d7949673ed6f2564.svg",
-    "static/media/code-fill.svg": "/Grow-Tech/static/media/code-fill.cd8c5ea67809ec4ec91dc19e4a9641d6.svg",
-    "static/media/pray.svg": "/Grow-Tech/static/media/pray.a69b965d18ba4788b6a47c0be3cdaec6.svg",
-    "static/media/support.svg": "/Grow-Tech/static/media/support.1698c44882c003fd15547dd5d5548ba9.svg",
+    "static/media/sass.png": "/Grow-Tech/static/media/sass.30e095c347e7fdb6a696.png",
+    "static/media/mongo.png": "/Grow-Tech/static/media/mongo.b5799bee1ba18c678a28.png",
+    "static/media/react.png": "/Grow-Tech/static/media/react.19e9f229656d41a58818.png",
+    "static/media/figma.png": "/Grow-Tech/static/media/figma.d45bb730be0b3361432c.png",
+    "static/media/java.png": "/Grow-Tech/static/media/java.4a6c54d4e8bbffb1d622.png",
+    "static/media/css.png": "/Grow-Tech/static/media/css.bcdfb27ca83aa1116e4c.png",
+    "static/media/html.png": "/Grow-Tech/static/media/html.b16cfaa3f19fdcfc010e.png",
+    "static/media/vue.png": "/Grow-Tech/static/media/vue.74014421ca0e7b963dee.png",
+    "static/media/flutter.png": "/Grow-Tech/static/media/flutter.c06bd567f7afbba91b91.png",
+    "static/media/pray.svg": "/Grow-Tech/static/media/pray.644beb5b1b411054008c16085092298a.svg",
+    "static/media/support.svg": "/Grow-Tech/static/media/support.be7a56b906d8d9b89918d84c03ff1388.svg",
     "static/media/idea.svg": "/Grow-Tech/static/media/idea.83ea27fa20231860de9d05f8b79af61f.svg",
     "index.html": "/Grow-Tech/index.html",
     "static/media/rook.svg": "/Grow-Tech/static/media/rook.8c785baa5f8703c10d2028489ac2c028.svg",
-    "main.13d085a9.css.map": "/Grow-Tech/static/css/main.13d085a9.css.map",
-    "main.83c64db7.js.map": "/Grow-Tech/static/js/main.83c64db7.js.map"
+    "main.12d13871.css.map": "/Grow-Tech/static/css/main.12d13871.css.map",
+    "main.ccfe4bcc.js.map": "/Grow-Tech/static/js/main.ccfe4bcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.13d085a9.css",
-    "static/js/main.83c64db7.js"
+    "static/css/main.12d13871.css",
+    "static/js/main.ccfe4bcc.js"
   ]
 }
