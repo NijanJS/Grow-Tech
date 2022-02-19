@@ -10,7 +10,9 @@
   --c-sec: #ed2222;
   --c-pink: #f34e77;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -62,4 +64,30 @@ body {
   height: 250px;
   border-radius: 15px;
   object-fit: cover;
+}
+/* .page>*{
+  height: 100%;
+  border-left:5px solid black;
+  border-right:5px solid black;
+} */
+.name{
+max-width: 250px;
+text-align: center;
+}
+.map{
+width: 642px;
+max-width: 642px;
+margin: 1em 0 !important;
+max-height: 666px;
+overflow: hidden;
+opacity: 0.9;
+box-shadow:5px 5px 10px rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+}
+.div-info{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 389px;
+  height: 147px;
 }

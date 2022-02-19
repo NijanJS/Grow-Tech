@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../../assets/images/GrowTech.png';
-import { navlinks, services, socialLinks } from '../../constants/constants';
-import { quickLinks } from './../../constants/constants';
+import logo from '../assets/images/GrowTech.png';
+import { navlinks, services, socialLinks } from '../constants/constants';
+import { quickLinks } from '../constants/constants';
 import { MdEmail, MdPhone, MdPinDrop } from 'react-icons/md';
-import '../../assets/styles/responsive.css';
 import { BsPinMap } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className="footer w-screen h-full flex flex-col justify-around items-center bg-cream ">
@@ -23,7 +22,9 @@ function Footer() {
           <span className="text-head font-medium">Quick Links</span>
           <div className="links">
             {quickLinks.map((service, id) => (
-              <li key={id}>{service.title}</li>
+              <Link to={`Grow-Tech${service.path}`} key={id}>
+                {service.title}
+              </Link>
             ))}
           </div>
         </div>
@@ -62,12 +63,12 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="bottom w-5/6 flex flex-row justify-between items-center px-10 mb-10">
-        <span className="text-grey">
+      <div className="bottom w-5/6 flex flex-row justify-between items-center mb-10">
+        <span className="text-grey copyright">
           ©️ 2021 <strong className="text-blue">GrowTech</strong>. All rights
           reserved
         </span>
-        <span style={{ color: '#374253' }}>
+        <span style={{ color: '#374253' }} className="links-company">
           <a href="/" target="_blank">
             Terms & Conditions
           </a>{' '}

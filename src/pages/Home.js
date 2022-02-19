@@ -19,8 +19,7 @@ function Home() {
       <Projects />
       <Testimonials />
       <Clients />
-      <Contact />
-      <Footer />
+      <Contact text={`Let's make something`} subtext={`together`}/>
       {/*
        */}
     </div>
