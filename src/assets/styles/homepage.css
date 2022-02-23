@@ -196,6 +196,9 @@ right: -1.8vw;
   border-radius: 5px;
   padding: 10px 10px;
 }
+.techstack>* img{
+  margin: 5px;
+}
 @media (max-width:475px){
   .techstack>*{
     justify-content: center !important;
@@ -203,6 +206,9 @@ right: -1.8vw;
   }
   .techstack * img{
     margin: 2px;
+  
+    max-width: 60px !important;
+    max-height: 50px !important;
     }
     .contact-info{
       align-items: flex-start;

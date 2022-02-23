@@ -24,7 +24,7 @@ export const BG = ({ img, styles }) => {
   return (
     <img
       src={img ? img : bg}
-      className={`${styles} absolute -z-10 w-screen h-screen top-0`}
+      className={`${styles} absolute -z-10 w-screen h-screen top-0 bg`}
     />
   );
 };

@@ -14,7 +14,7 @@ function Careers() {
         <div className="page w-5/6 h-full flex justify-evenly items-center">
           <div className="page w-3/5 h-2/6 ml-10 text-section flex flex-col justify-center items-start gap-3 full-width">
             <div className="header page">
-              <Paragraph body="Career" />
+              <Paragraph body="Career" styles="font-medium"/>
               <Header
                 title="Join the ever Expanding Crew"
                 styles="text-dark w-5/6"
@@ -26,8 +26,8 @@ function Careers() {
 Grow Tech.`}
             />
           </div>
-          <div className="main-img flex flex-col items-center justify-evenly shadow-lg overflow-hidden">
-            <img src={src} className="w-full h-full" />
+          <div className="main-img flex flex-col bg-drop items-center justify-evenly shadow-lg overflow-hidden">
+            <img src={src} className="w-full h-full " />
           </div>
         </div>
       </div>

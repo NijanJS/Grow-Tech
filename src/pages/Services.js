@@ -74,8 +74,7 @@ function Services() {
                   </div>
                 </div>
                 <span
-                  className="w-full"
-                  style={{ border: '1px solid gray' }}></span>
+                  className="w-full line"></span>
               </>
             );
           })}

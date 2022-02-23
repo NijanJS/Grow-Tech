@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaFacebook, FaLinkedin, FaTeamspeak } from 'react-icons/fa';
+import { FaFacebook, FaFacebookF, FaLinkedin, FaLinkedinIn, FaTeamspeak } from 'react-icons/fa';
 import { Header, SubHeader } from '../../components/contentbox';
 import { Teams } from '../../constants/constants';
 function Team() {
@@ -43,7 +43,7 @@ function Team() {
           data-aos="fade-up">
           {data.map((dat, id) => {
             return (
-              <div className="flex flex-col items-start" key={id}>
+              <div className="flex flex-col items-start gap-3" key={id}>
                 <div
                   className="user-img overflow-hidden "
                   style={{ width: '280px', height: '360px' }}>
@@ -58,10 +58,10 @@ function Team() {
                 </div>
                 <div className="social flex gap-1 ">
                   <a target="_blank" href={dat.fb}>
-                    <FaFacebook />
+                    <FaFacebookF />
                   </a>
                   <a target="_blank" href={dat.ln}>
-                    <FaLinkedin />
+                    <FaLinkedinIn />
                   </a>
                 </div>
               </div>

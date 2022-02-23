@@ -6,7 +6,7 @@ function Indepth() {
     <div className="w-screen h-full flex justify-center items-center bg-blue py-20">
       <div className="page w-4/5 h-full flex flex-col justify-around gap-20">
         <div className="w-full flex">
-          <span className=" text-white text-mlg font-bold">
+          <span className=" text-white text-mlg font-bold6">
           We Are
           </span>
         </div>

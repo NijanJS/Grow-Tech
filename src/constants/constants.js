@@ -318,6 +318,26 @@ export const WeAre = [
 
 export const Teams = [
   {
+    title: 'Leadership',
+    members: [
+      {
+        img: `https://media-exp1.licdn.com/dms/image/C5103AQFpdrLL0h4Mrw/profile-displayphoto-shrink_200_200/0/1553689108590?e=1651104000&v=beta&t=0JpJAB9cKz17W2b3UTwXtw7M11g2Xn9NazTeAfnkiwc`,
+        name: 'Samir Gautam',
+        position: 'Founder & CEO',
+        fb: 'https://www.facebook.com',
+        ln: 'https://www.linkedin.com',
+      },
+      {
+        img: `https://media-exp1.licdn.com/dms/image/C5635AQEETAmzH44u1g/profile-framedphoto-shrink_200_200/0/1600046374761?e=1645714800&v=beta&t=G1hvNI3ACzfFbfEp8_QwtEqr-rm5ZdgQ_6ep3FLV2k0`,
+        name: 'Shiva Neupane',
+        position: 'Founder & CEO',
+        fb: 'https://www.facebook.com',
+        ln: 'https://www.linkedin.com',
+      },
+
+    ],
+  },
+  {
     title: 'Frontend Team',
     members: [
       {
