@@ -1,0 +1,256 @@
+.burger-menu {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .projects-info {
+    width: 80%;
+  }
+  .testi {
+    flex-direction: column;
+    gap: 0;
+    font-size: 14px;
+    height: max-content !important;
+  }
+  .nextButton,
+  .previousButton {
+    display: none !important;
+  }
+  .img-info > img {
+    width: 100px;
+    height: 100px;
+  }
+  .testimonials {
+    width: 80%;
+  }
+  .top {
+    left: 0;
+  }
+  .bottom {
+    right: 0;
+  }
+  .service-header > * {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* HomePage */
+  .homepage {
+    width: 100vw;
+    height: 100vh;
+  }
+  .home-bg {
+    width: 100vw;
+    object-fit: cover;
+    height: 100%;
+  }
+  .page {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .main-projects {
+    width: 300px;
+    height: 300px;
+  }
+  .text-section {
+    width: 100%;
+  }
+
+  .head {
+    font-size: 24px;
+  }
+  .body {
+    width: 100%;
+    text-align: justify;
+  }
+
+  /* HomePage */
+  /* About Page */
+  .about .element {
+    display: none;
+  }
+  .burger-menu {
+    align-items: center;
+    color: var(--c-sec);
+    display: flex;
+    flex-direction: column;
+    font-size: 40px !important;
+    position: fixed;
+    right: 1em;
+    top: 3vh;
+    z-index: 100;
+  }
+  .toggle {
+    opacity: 1;
+    -webkit-transform: translateX(0) !important;
+    transform: translateX(0) !important;
+  }
+  .navigation {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: var(--c-pri);
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: fixed;
+    top: 10vh;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    z-index: 100;
+  }
+.navbar > * {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navbar, .navbar > * {
+    align-items: center;
+    width: 100%;
+  }
+  .navmenu>*{
+    margin: 0 !important;
+  }
+  .navigation > * {
+    display: flex;
+    flex-direction: column;
+  }
+  .home-container {
+    gap: 30px;
+  }
+  /* About Page */
+  /* Service Page */
+
+  /* Service Page */
+  /* How we Work */
+  .how-we-work {
+    gap: 2em;
+  }
+  /* Projects */
+
+  .header h1 {
+    font-size: 24px;
+  }
+  .header p {
+    font-size: 14px;
+  }
+  /*  */
+  .projects-no {
+    width: 100%;
+    margin: 1em 0;
+  }
+  .img-info {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .clients {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    width: 100%;
+    height: max-content;
+  }
+  .clients > div {
+    box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 2em 1em;
+  }
+  .pattern {
+    width: 150px;
+    height: 150px;
+  }
+  .box > span {
+    font-size: 18px;
+  }
+  /* footer */
+  .footer {
+    gap: 1em;
+  }
+  .footer-sec {
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+  }
+  .desc {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+    min-height: fit-content;
+  }
+  .footer > .bottom {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 5px;
+  }
+  .service-header {
+    margin-left: 10px;
+  }
+  .home-container {
+    gap: 30px;
+  }
+  .page {
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+  }
+  .abt-info {
+      align-items: flex-start;
+    }
+}
+@media (max-width: 1024px) {
+  .project-container {
+    flex-direction: column-reverse !important;
+  }
+  .project-container > div {
+    width: 100%;
+  }
+  .page {
+    gap: 5px;
+  }
+  .logo {
+    width: 150px;
+  }
+.full-width > *,
+.full-width {
+  width: 100%;
+  font-size: 18px;
+}
+.page {
+  gap: 5px;
+}
+.data-img {
+  justify-content: flex-start;
+}
+.project-container > div > p {
+  width: 100%;
+}
+}
+@media (max-width: 1280px) {
+  .head {
+    font-size: 40px;
+  }
+  .body {
+    width: 80%;
+  }
+  .service-list {
+    width: 80%;
+    font-size: 14px;
+    margin-left: 1em;
+  }
+  .active {
+    transform: translateX(50px);
+  }
+  .service-body {
+    width: 100%;
+    margin: 1em 0 0 1em;
+  }
+  .service-img {
+    width: 300px;
+  }
+  .how-we-work > {
+    width: 120px;
+  }
+}

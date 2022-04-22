@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Button from '../../components/Button';
 import { services } from '../../constants/constants';
 import { BsArrowRight } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 function Services() {
   const [data, setData] = useState({
@@ -35,42 +36,43 @@ function Services() {
 
   return (
     <div
-      className="services w-full h-full flex items-start overflow-x-hidden py-20 relative overflow-hidden "
+      className="services w-full h-full flex flex-col items-center justify-center relative "
       style={{ background: data.color }}>
       <span
-        className="circle absolute"
+        className="circle "
         style={{ background: data.nextColor }}></span>
-      <div className="my-5 page min-w-full w-screen h-full flex justify-evenly items-center service-item">
+      <div className="page w-5/6 h-full mt-20 flex justify-evenly items-center" >
         <div
-          className="w-2/5 h-2/6 text-section  flex flex-col justify-around items-start gap-10"
-          data-aos="fade-up">
-          <div className="header flex flex-col service-header gap-3 item-end h-2/6 mt-5">
+          className="w-3/5 h-2/6 flex flex-col items-start gap-10"
+          // data-aos="fade-up"
+          >
+          <div className="page header flex flex-col service-header gap-3 item-end h-2/6 mt-5">
             <span className="text-grey">Area of focus</span>
             <h2 className="sub-header" style={{ color: '#165EAD' }}>
               Our service
             </h2>
           </div>
 
-          <ul className="service-list flex flex-col w-3/5 items-start gap-5">
+          <ul className="service-list flex flex-col w-full items-start gap-5">
             {services.map((service, key) => {
               return (
                 <li
                   key={key}
                   value={key}
                   onClick={(e) => handleActive(e.target.value)}
-                  className="list cursor-pointer flex items-center gap-2 text-grey">
+                  className="list cursor-pointer flex items-center text-grey ">
                   {service.title} <BsArrowRight className="arrow " />
                 </li>
               );
             })}
           </ul>
         </div>
-        <div className="flex flex-col items-start justify-between w-2/5 service-body gap-2 text-grey">
-          <div className="service-img" data-aos="fade-up">
-            <img className="service-img" src={data.img} />
+        <div className="img-size flex flex-col items-start justify-between w-2/5 service-body gap-2 text-grey">
+          <div className="img-size" data-aos="fade-up">
+            <img className="" src={data.img} />
           </div>
           <h2
-            className="font-bold w-4/5 text-grey"
+            className="font-bold6 w-4/5 text-grey"
             data-aos="fade-up"
             data-aos-delay={300}>
             {data.header}
@@ -78,16 +80,18 @@ function Services() {
           <p className="w-full" data-aos="fade-up" data-aos-delay={500}>
             {data.body}
           </p>
-          <Button
-            title="Read More"
-            type="primary"
-            style={{
-              background: data.color,
-              color: 'black',
-              padding: '10px',
-            }}
-            styles="trans w-fit mt-3"
-          />
+          <Link to="services">
+            <Button
+              title="Read More"
+              type="primary"
+              style={{
+                background: data.color,
+                color: 'black',
+                padding: '10px',
+              }}
+              styles="trans w-fit mt-3"
+            />
+          </Link>
         </div>
       </div>
     </div>

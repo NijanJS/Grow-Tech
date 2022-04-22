@@ -8,7 +8,7 @@ import Projects from './LandingPage/Projects';
 import Testimonials from './LandingPage/Testimonials';
 import Clients from './LandingPage/Clients';
 import Contact from './LandingPage/Contact';
-import Footer from './LandingPage/Footer';
+import Footer from '../components/Footer';
 function Home() {
   return (
     <div className="home-container min-w-screen max-w-screen w-screen h-full home flex flex-col">
@@ -19,8 +19,8 @@ function Home() {
       <Projects />
       <Testimonials />
       <Clients />
-      <Contact />
-      <Footer />
+      <Contact text={`Let's make something`} subtext={`together`}/>
+
       {/*
        */}
     </div>

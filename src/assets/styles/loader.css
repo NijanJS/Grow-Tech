@@ -1,0 +1,102 @@
+
+@keyframes loading {
+  from{
+      width: 0;
+  }
+  to{
+      width: 100%;
+  }
+}
+#loader {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100vw;
+  -webkit-animation: zoom 1s forwards 3s, moveup 1s forwards 4s;
+          animation: zoom 1s forwards 3s, moveup 1s forwards 4s;
+  transition: all 1s ease;
+}
+#loader path:nth-child(1) {
+  stroke-dasharray: 678px;
+  stroke-dashoffset: 678px;
+  -webkit-animation: fill 2.5s forwards;
+          animation: fill 2.5s forwards;
+}
+#loader path:nth-child(2) {
+  stroke-dasharray: 702px;
+  stroke-dashoffset: 702px;
+  -webkit-animation: fill 2.5s forwards 0.5s;
+          animation: fill 2.5s forwards 0.5s;
+}
+#loader path:nth-child(3) {
+  stroke-dasharray: 665px;
+  stroke-dashoffset: 665px;
+  -webkit-animation: fill 2.5s forwards 0.7s;
+          animation: fill 2.5s forwards 0.7s;
+}
+#loader path:nth-child(4) {
+  stroke-dasharray: 911px;
+  stroke-dashoffset: 911px;
+  -webkit-animation: fill 2.5s forwards 0.9s;
+          animation: fill 2.5s forwards 0.9s;
+}
+#loader path:nth-child(5) {
+  stroke-dasharray: 442px;
+  stroke-dashoffset: 442px;
+  -webkit-animation: fill 2.5s forwards 1.1s;
+          animation: fill 2.5s forwards 1.1s;
+}
+#loader path:nth-child(6) {
+  stroke-dasharray: 553px;
+  stroke-dashoffset: 553px;
+  -webkit-animation: fill 2.5s forwards 1.3s;
+          animation: fill 2.5s forwards 1.3s;
+}
+#loader path:nth-child(7) {
+  stroke-dasharray: 600px;
+  stroke-dashoffset: 600px;
+  -webkit-animation: fill 2.5s forwards 1.5s;
+          animation: fill 2.5s forwards 1.5s;
+}
+#loader path:nth-child(8) {
+  stroke-dasharray: 687px;
+  stroke-dashoffset: 687px;
+  -webkit-animation: fill 2.5s forwards 1.7s;
+          animation: fill 2.5s forwards 1.7s;
+}
+@-webkit-keyframes fill {
+  to {
+    stroke-dashoffset: 0px;
+    fill: #0066ff;
+  }
+}
+@keyframes fill {
+  to {
+    stroke-dashoffset: 0px;
+    fill: #0066ff;
+  }
+}
+@-webkit-keyframes zoom {
+  to {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+@keyframes zoom {
+  to {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+@-webkit-keyframes moveup {
+  to {
+    -webkit-transform: translateY(-500vh);
+            transform: translateY(-500vh);
+  }
+}
+@keyframes moveup {
+  to {
+    -webkit-transform: translateY(-500vh);
+            transform: translateY(-500vh);
+  }
+}

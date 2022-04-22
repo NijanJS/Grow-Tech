@@ -1,0 +1,73 @@
+.main-img {
+  height: 445px;
+  width: 750px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+}
+.abt-info > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.techstack {
+  height: 336px;
+}
+.col {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.img {
+  height: 96px;
+  width: 170px;
+}
+li {
+  list-style-type: none;
+}
+.selected {
+  background: #b84143;
+  color: white;
+}
+.user-img {
+  border-radius: 15px;
+}
+.disable {
+  z-index: -1;
+}
+.social > a {
+  font-size: 18px;
+  color: #b84143;
+}
+@media (max-width: 1024px) {
+  .full-width > *,
+  .full-width {
+    width: 100%;
+    font-size: 18px;
+  }
+  .page {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .abt-info {
+    align-items: flex-start;
+  }
+}
+.project-img {
+  max-width: 535px;
+  max-height: 325px;
+}
+.img-bg {
+  max-width: 613px;
+  max-height: 489px;
+}
+/* Careers */
+.job-box {
+  width: 315px;
+  height: 240px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}

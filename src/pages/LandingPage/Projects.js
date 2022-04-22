@@ -6,19 +6,26 @@ import { BsArrowRight } from 'react-icons/bs';
 function Projects() {
   return (
     <div
-      className="w-screen h-full flex flex-col items-center justify-start gap-5 relative z-3"
+      className="w-screen h-full flex flex-col items-center justify-start gap-5 block-container"
       style={{ background: '#F6F9FC' }}>
-      <span className="top small-circle  "></span>
-      <span className="bottom small-circle "></span>
+<div className="vertical-text  ">
+  <div className="vertical-lines"></div>
+  <span className='vertical'>Our Work</span>
+  <div className="vertical-lines"></div>
+
+</div>
 
       <div
-        className="w-5/6 flex flex-col items-center justify-between relative"
+        className="w-5/6 flex flex-col items-center justify-between main-container "
         style={{ background: '#F6F9FC' }}>
+        <span className="small-circle top"></span>
+        <span className="small-circle btm"></span>
+          <div className="w-full flex flex-col items-center justify-between">
         {projects.map((project) => (
           <div
             style={{ background: '#F6F9FC' }}
             key={project.id}
-            className={`w-full flex justify-evenly py-10 px-5 bg-red-100 items-end ${
+            className={`container-insider w-full flex justify-between py-10 px-5 bg-red-100 items-end ${
               project.id == 1 ? 'flex-row' : 'flex-row-reverse '
             } gap-10 project-container`}>
             <div className="w-3/6 flex flex-col gap-8">
@@ -48,12 +55,14 @@ function Projects() {
             </div>
           </div>
         ))}
-        <div className="flex justify-center items-center py-10 gap-3">
+         <div className="btm-overlay w-full bg-cream flex justify-center items-center py-10 gap-3 z-3">
           <button className="flex justify-center items-center gap-3">
             View all Projects <BsArrowRight />
           </button>
         </div>
+        </div>
       </div>
+      
     </div>
   );
 }
