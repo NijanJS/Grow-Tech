@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Grow-Tech/static/css/main.26f432ac.css",
-    "main.js": "/Grow-Tech/static/js/main.5394b04e.js",
+    "main.css": "/Grow-Tech/static/css/main.60b353a8.css",
+    "main.js": "/Grow-Tech/static/js/main.c5017d7a.js",
+    "static/media/ranjit-shrestha.png": "/Grow-Tech/static/media/ranjit-shrestha.3c3d11147d0e1836b319.png",
     "static/media/bg.png": "/Grow-Tech/static/media/bg.4d0797b80925f9455179.png",
     "static/media/degi.png": "/Grow-Tech/static/media/degi.ea999148181aa1880388.png",
     "static/media/gyapu.png": "/Grow-Tech/static/media/gyapu.3429459c2f13c1f88ec6.png",
@@ -13,8 +14,15 @@
     "static/media/app.png": "/Grow-Tech/static/media/app.d0f899a41a716718879d.png",
     "static/media/enterprise.png": "/Grow-Tech/static/media/enterprise.500c33e24fc3f8229f26.png",
     "static/media/hosting.png": "/Grow-Tech/static/media/hosting.fdfd5ed1b07ec8366024.png",
+    "static/media/shiva-neupane.png": "/Grow-Tech/static/media/shiva-neupane.f44463b7e834628a64bb.png",
+    "static/media/samir-gautam.png": "/Grow-Tech/static/media/samir-gautam.1af40a89897463b999ca.png",
+    "static/media/ajit-pudasaini.png": "/Grow-Tech/static/media/ajit-pudasaini.582f0184429aba4f4a4e.png",
+    "static/media/rajiv-dahal.png": "/Grow-Tech/static/media/rajiv-dahal.357715b93b1173b6aec9.png",
+    "static/media/Ram.png": "/Grow-Tech/static/media/Ram.b64290e69a94d456333e.png",
     "static/media/police.png": "/Grow-Tech/static/media/police.bc58f526c456c509826b.png",
     "static/media/Pattern.png": "/Grow-Tech/static/media/Pattern.b1c31955498122deecf1.png",
+    "static/media/bibek-neupane.png": "/Grow-Tech/static/media/bibek-neupane.e8ff3735a7742a67a235.png",
+    "static/media/yasodha-subedi.png": "/Grow-Tech/static/media/yasodha-subedi.39e8db98bf5387b03f04.png",
     "static/media/sass.png": "/Grow-Tech/static/media/sass.30e095c347e7fdb6a696.png",
     "static/media/mongo.png": "/Grow-Tech/static/media/mongo.b5799bee1ba18c678a28.png",
     "static/media/react.png": "/Grow-Tech/static/media/react.19e9f229656d41a58818.png",
@@ -24,16 +32,17 @@
     "static/media/html.png": "/Grow-Tech/static/media/html.b16cfaa3f19fdcfc010e.png",
     "static/media/vue.png": "/Grow-Tech/static/media/vue.74014421ca0e7b963dee.png",
     "static/media/flutter.png": "/Grow-Tech/static/media/flutter.c06bd567f7afbba91b91.png",
-    "static/media/pray.svg": "/Grow-Tech/static/media/pray.644beb5b1b411054008c16085092298a.svg",
-    "static/media/support.svg": "/Grow-Tech/static/media/support.be7a56b906d8d9b89918d84c03ff1388.svg",
-    "static/media/idea.svg": "/Grow-Tech/static/media/idea.83ea27fa20231860de9d05f8b79af61f.svg",
+    "static/media/prabhu.png": "/Grow-Tech/static/media/prabhu.b047128f20ffcb07cfd5.png",
+    "static/media/pray.svg": "/Grow-Tech/static/media/pray.156e9120fe20a364071694e2835afd2a.svg",
+    "static/media/support.svg": "/Grow-Tech/static/media/support.0aeb95ce10a6b8d047b243947ba5b722.svg",
+    "static/media/idea.svg": "/Grow-Tech/static/media/idea.5ed39e15344a3f5a49c9632c46d130a5.svg",
     "index.html": "/Grow-Tech/index.html",
-    "static/media/rook.svg": "/Grow-Tech/static/media/rook.8c785baa5f8703c10d2028489ac2c028.svg",
-    "main.26f432ac.css.map": "/Grow-Tech/static/css/main.26f432ac.css.map",
-    "main.5394b04e.js.map": "/Grow-Tech/static/js/main.5394b04e.js.map"
+    "static/media/rook.svg": "/Grow-Tech/static/media/rook.5b9e24ee7c6f863527098781c687e005.svg",
+    "main.60b353a8.css.map": "/Grow-Tech/static/css/main.60b353a8.css.map",
+    "main.c5017d7a.js.map": "/Grow-Tech/static/js/main.c5017d7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.26f432ac.css",
-    "static/js/main.5394b04e.js"
+    "static/css/main.60b353a8.css",
+    "static/js/main.c5017d7a.js"
   ]
 }
