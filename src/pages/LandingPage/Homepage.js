@@ -1,9 +1,12 @@
-import React from 'react';
-import bg from '../../assets/images/bg.png';
-import client from '../../assets/images/police.png';
-import Button from '../../components/Button';
-import { HiArrowNarrowRight } from 'react-icons/hi';
-import { Link } from 'react-router-dom';
+import React from "react";
+import bg from "../../assets/images/bg.png";
+import Button from "../../components/Button";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
+import client from "../../assets/images/clients/prabhu.png"
+import { clients } from "../../constants/constants";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 function Homepage() {
   return (
@@ -20,14 +23,14 @@ function Homepage() {
             <div className="container flex min-w-full justify-start mt-3">
               <Link to="works/projects">
                 <Button title="See Our Works" type="primary" />
-              </Link>{' '}
+              </Link>{" "}
             </div>
           </div>
           <div className="main-prj-blur flex flex-col items-center justify-evenly shadow-lg">
             <span className="text-white text-2xl font-medium">
               Our Valuable Clients
             </span>
-            <img src={client} />
+            <img src={client}/>
           </div>
         </div>
       </div>

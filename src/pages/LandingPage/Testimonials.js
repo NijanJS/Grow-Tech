@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { testimonials } from '../../constants/constants';
-import Slider from 'react-animated-slider';
-import 'react-animated-slider/build/horizontal.css';
-
+import {Carousel} from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"
 function Testimonials() {
   var [count, setCount] = useState(0);
   const [data, setData] = useState(testimonials[count]);
@@ -31,7 +30,7 @@ function Testimonials() {
             What clients are saying about Grow Tech
           </span>
         </div>
-        <Slider>
+        <Carousel infiniteLoop showIndicators >
           {testimonials.map((testimonial, index) => (
             <div
               className="testi w-5/6 flex justify-center items-center gap-20"
@@ -65,7 +64,7 @@ function Testimonials() {
               </div>
             </div>
           ))}
-        </Slider>
+        </Carousel>
         {/* <div
           className="testi w-5/6 flex justify-evenly items-center my-10 "
           data-aos="fade-left">
