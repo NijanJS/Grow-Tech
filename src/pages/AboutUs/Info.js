@@ -1,8 +1,8 @@
 import React from 'react';
 import { Header, Paragraph, SubHeader } from '../../components/contentbox';
-function Info({ data, header }) {
+function Info({ data, header,dataname }) {
   return (
-    <div className="w-screen h-full flex justify-center items-center">
+    <div className={`w-screen h-full flex justify-center items-center ${dataname}`}>
       <div className="page text-container w-4/5 h-full flex flex-col justify-evenly gap-20">
         <div className="flex w-full">
           <Header title={header}/>

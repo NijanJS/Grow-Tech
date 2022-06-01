@@ -4,20 +4,26 @@ import Home from './pages/Home';
 import './index.css';
 import aos from 'aos';
 import 'aos/dist/aos.css';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import About from './pages/About';
 import Footer from './components/Footer';
 import Services from './pages/Services';
-import Works from './pages/Works';
+import Projects from './pages/Works/Projects';
 import Careers from './pages/Careers';
 import Contact from './pages/Contact';
 import { FaArrowUp } from 'react-icons/fa';
 import "./assets/styles/responsive.css"
 import Loader from './components/Loader';
-function App() {
-  const [load, setLoad]=useState(true);
+import Products from './pages/Works/Products';
+import Product from './pages/Works/components/Product';
+function App(props) {
+  const location = useLocation();
+  const [load, setLoad]=useState(false);
+  useEffect(()=>{
+    window.scrollTo({top:0, behavior:"auto"});
+  },[location])
   useEffect(() => {
-    aos.init({ easing: 'ease', duration: 700 });
+    aos.init({ easing: 'ease', duration: 700});
     setTimeout(() => {
       setLoad(false);
     }, 4100);
@@ -36,13 +42,18 @@ function App() {
         {load?(<Loader/>):(<>
           <Navbar />
         <Routes>
-          <Route element={<Home />} path="Grow-Tech/" />
-          <Route element={<About />} path="Grow-Tech/about" />
-          <Route element={<Services />} path="Grow-Tech/services" />
-          <Route element={<Works />} path="Grow-Tech/works" />
-          <Route element={<Careers />} path="Grow-Tech/careers" />
-          <Route element={<Contact />} path="Grow-Tech/contact" />
+          <Route element={<Home />} path="/" />
+          <Route element={<About />} path="/about" />
+          <Route element={<Services />} path="/services" />
+          <Route path='/works'>
+          <Route element={<Projects />} path="projects" />
+          <Route element={<Products />} path="products"/>
+          </Route>
+          <Route element={<Careers />} path="/careers" />
+          <Route element={<Contact />} path="/contact" />
+          <Route element={<Product />} path="/works/products/:id"/>
         </Routes>
+
         <Footer />
         <button
           onClick={() => window.scrollTo({ top: '0' })}

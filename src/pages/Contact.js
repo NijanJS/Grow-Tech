@@ -47,7 +47,7 @@ function ContactUs() {
                     {info.title}
                   </strong>
                   {info.data.map((detail, id) => (
-                    <span id={id} className="flex flex-col gap-0">
+                    <span key={`${detail}-${id}`} className="flex flex-col gap-0">
                       {detail}
                     </span>
                   ))}
@@ -72,11 +72,11 @@ function ContactUs() {
             <span className="font-medium text-mlg text-white">
               {`Are you looking to join our team?`}
             </span>
-            <button
-              onClick={() => (window.location.pathname = 'Grow-Tech/careers')}
+            <Link to="/careers"
+              // onClick={() => (window.location.pathname = '/careers')}
               className="btn flex justify-center items-center gap-2">
               Let's Talk <FaArrowRight />
-            </button>
+            </Link>
           </div>
         </div>
       </div>

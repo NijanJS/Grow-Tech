@@ -49,19 +49,27 @@ li {
     gap: 5px;
   }
 }
-
+@media (max-width:500px){
+  .img-bg{
+  width: fit-content !important;
+  height: 250px !important;}
+  
+}
 @media (max-width: 768px) {
   .abt-info {
     align-items: flex-start;
   }
+.project-img{
+  transform: scale(0.75);
+}
 }
 .project-img {
   max-width: 535px;
   max-height: 325px;
 }
 .img-bg {
-  max-width: 613px;
-  max-height: 489px;
+  width: 600px;
+  height: 450px;
 }
 /* Careers */
 .job-box {
@@ -70,4 +78,49 @@ li {
   background: #ffffff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
+}
+.keyword{
+  border-radius: 4px;
+  max-width: max-content;
+}
+.product-img{
+  width: 730px;
+height: 582px;
+}
+
+.product-header{
+  width: fit-content;
+  max-width: 730px;
+}
+.product-header > *{
+  width: 100%;
+  padding: 0 5px ;
+}
+.nav2{
+  background-color:#165EAD;
+}
+.navigate-btn{
+  width: 80px;
+  height: 80px;
+  box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  font-size: 20px;
+  right: 10vw;
+  top:10vh;
+  position: absolute;
+}
+.custom-contact{
+  background-color: white !important;
+  padding:10px 0;
+  margin-top: -5em;
+}
+.custom-contact .pattern{
+  display: none;
+}
+.custom-contact span{
+  color: #165EAD;
+}.client-img{
+  /* transform: scale(0.75); */
+  flex: 1;
+  width: 140px;
 }

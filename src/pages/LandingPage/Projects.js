@@ -2,6 +2,7 @@ import React from 'react';
 import { projects } from '../../constants/constants';
 import Button from './../../components/Button';
 import { BsArrowRight } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 function Projects() {
   return (
@@ -56,13 +57,14 @@ function Projects() {
           </div>
         ))}
          <div className="btm-overlay w-full bg-cream flex justify-center items-center py-10 gap-3 z-3">
+          <Link to="/works/projects">
           <button className="flex justify-center items-center gap-3">
             View all Projects <BsArrowRight />
           </button>
+          </Link>
         </div>
         </div>
       </div>
-      
     </div>
   );
 }

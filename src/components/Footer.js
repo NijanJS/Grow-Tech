@@ -22,7 +22,7 @@ function Footer() {
           <span className="text-head font-medium">Quick Links</span>
           <div className="links">
             {quickLinks.map((service, id) => (
-              <Link to={`Grow-Tech${service.path}`} key={id}>
+              <Link to={`${service.path}`} key={id}>
                 {service.title}
               </Link>
             ))}
@@ -41,7 +41,7 @@ function Footer() {
           <div className="links font-medium">
             <span className="email flex gap-2 items-center">
               <MdEmail />
-              <a href="mailat:hr@growtech.com.np">hr@growtech.com.np</a>
+              <a href="mailto:hr@growtech.com.np">hr@growtech.com.np</a>
             </span>
             <span className="phone flex gap-2 items-center">
               <MdPhone /> <span>+91 98765 43210</span>

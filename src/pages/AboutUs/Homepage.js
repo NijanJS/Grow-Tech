@@ -2,6 +2,7 @@ import React from 'react';
 import { BG, Header, Paragraph, SubHeader } from '../../components/contentbox';
 import '../../assets/styles/about.css';
 import { FaArrowDown } from 'react-icons/fa';
+import {Link, animateScroll, scrollSpy} from "react-scroll"
 
 export const ArrowDown = () => {
   return (
@@ -26,12 +27,12 @@ function Homepage() {
             body={`We put passion and pride into what we do. You would like that about us. Scroll down and see why you should like us, too.`}
           />
           <div className="page abt-info container flex min-w-full justify-start mt-3 w-full gap-5">
-            <span>
+            <Link smooth to='technologies' className='flex items-center gap-3 cursor-pointer'>
               Technology we use <ArrowDown />
-            </span>
-            <span>
+            </Link>
+            <Link smooth to='why-choose-us' className='flex items-center gap-3 cursor-pointer'>
               Why Choose Us <ArrowDown />
-            </span>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col shadow-lg overflow-hidden main-img">

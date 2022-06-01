@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
   --f-pri: 'Red Hat Display', sans-serif;
   --f-sec: 'IBM Plex Sans', sans-serif;
@@ -121,4 +122,31 @@ border-radius: 20px;
 .footer .links a:hover{
   color: #165EAD;
   font-weight: bold;
+}
+.prj-btn{
+font-size: 20px !important;
+background-color: #F6F9FC;
+padding: 10px 20px;
+color: #165EAD;
+min-width: 100px;
+}
+.prj-btn:hover{
+  background-color:#165EAD;
+  color: #F6F9FC;
+}
+.circle{
+  z-index:0;
+}
+.animate{
+  animation: .8s circle alternate-reverse;
+}
+@keyframes circle {
+  from{
+    transform: scale(1);
+    border-radius: 50%;
+  }
+  to{
+    transform: scale(15);
+    border-radius: 50%;
+  }
 }

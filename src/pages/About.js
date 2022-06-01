@@ -13,7 +13,7 @@ function About() {
       <Homepage />
       <Info data={Creation} header="What we create" />
       <Techstack />
-      <Info data={Reasons} header="Why choose us" />
+      <Info data={Reasons} header="Why choose us" dataname="why-choose-us"/>
       <Indepth />
       <Team />
     </div>

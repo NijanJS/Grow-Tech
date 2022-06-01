@@ -18,7 +18,7 @@ function Homepage() {
               and well motivated to grow your business.
             </p>
             <div className="container flex min-w-full justify-start mt-3">
-              <Link to="works">
+              <Link to="works/projects">
                 <Button title="See Our Works" type="primary" />
               </Link>{' '}
             </div>

@@ -1,12 +1,12 @@
-import React from 'react';
-import { FaArrowRight } from 'react-icons/fa';
-import Pattern from '../../assets/images/Pattern.png';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { FaArrowRight } from "react-icons/fa";
+import Pattern from "../../assets/images/Pattern.png";
+import { Link } from "react-router-dom";
 
-function Contact({ text, subtext }) {
+function Contact({ text, subtext, custom }) {
   return (
     <div className="w-screen h-full flex justify-center items-center my-10">
-      <div className="w-5/6 bg-blue py-20 rounded-2xl relative">
+      <div className={`w-5/6 bg-blue py-20 rounded-2xl relative ${custom?"custom-contact":""}`}>
         <img className="pattern absolute top-0" src={Pattern} />
         <img
           className="pattern absolute bottom-0 right-0 rotate-180"
@@ -18,7 +18,7 @@ function Contact({ text, subtext }) {
             <br />
             {subtext}
           </span>
-          <Link to="contact">
+          <Link to="/contact">
             <button className="btn flex justify-center items-center gap-2">
               Let's Talk <FaArrowRight />
             </button>

@@ -6,6 +6,7 @@ import Techstack from './AboutUs/Techstack';
 import Contact from './LandingPage/Contact';
 import '../assets/styles/services.css';
 import '../assets/styles/homepage.css';
+import {Link} from 'react-router-dom';
 function Services() {
   return (
     <div className="w-screen h-full flex flex-col justify-center items-center ">
@@ -54,16 +55,18 @@ function Services() {
                     <span>Technology we use:</span>
                     <div className="grid grid-cols-1">
                       {service.content?.techstack?.map((tech, id) => (
-                        <li className="text-grey" key={id}>
+                        <li className="text-grey" key={`${tech}-${id}`}>
                           — {tech}
                         </li>
                       ))}
                     </div>
+                    <Link to='/works'>
                     <Button
                       title="See Our Works"
                       styles="primary trans"
                       span="text-grey font-medium"
                     />
+                    </Link>
                   </div>
                   <div
                     data-aos="fade-up"

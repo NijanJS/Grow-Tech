@@ -17,8 +17,9 @@ function Clients() {
           className="w-4/5 grid grid-cols-5 bg-cream p-10 clients"
           style={{ minHeight: '324px' }}>
           {clients.map((client, id) => (
-            <div className="justify-center items-center flex" key={id}>
-              <img src={client} />
+            <div className="justify-center items-center flex flex-col" key={id}>
+                <img src={client.img} />
+                <h2 className="font-bold6 text-grey">{client.title}</h2>
             </div>
           ))}
         </div>

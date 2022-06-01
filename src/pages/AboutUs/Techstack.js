@@ -11,7 +11,7 @@ import SASS from '../../assets/images/techstack/sass.png';
 import VUE from '../../assets/images/techstack/vue.png';
 function Techstack() {
   return (
-    <div className="w=screen h-full flex justify-center flex-col items-center">
+    <div className="w=screen h-full flex justify-center flex-col items-center technologies">
       <div className="page w-5/6 h-full flex flex-col justify-center items-center">
         <div className="page w-5/6 flex flex-col items-center justify-center">
           <div className="header flex flex-col items-center ">
