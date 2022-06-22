@@ -51,7 +51,7 @@
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.13"
   },
-    "resolutions": {
+  "resolutions": {
     "mini-css-extract-plugin": "2.4.5"
   }
 }
