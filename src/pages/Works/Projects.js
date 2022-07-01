@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import { SubHeader,} from '../../components/contentbox';
-import { ProjectsLabel, allProjects } from '../../constants/constants';
-import '../../assets/styles/about.css';
-import '../../assets/styles/homepage.css';
-import Contact from '../LandingPage/Contact';
+import React, { useState, useEffect } from "react";
+import { SubHeader } from "../../components/contentbox";
+import { ProjectsLabel, allProjects } from "../../constants/constants";
+import "../../assets/styles/about.css";
+import "../../assets/styles/homepage.css";
+import Contact from "../LandingPage/Contact";
 function Projects() {
   const [projects, setProjects] = useState(allProjects);
   useEffect(() => {
     handleLabel(0);
   }, []);
   const handleLabel = (data) => {
-    const selectors = document.querySelectorAll('.team-selector li');
-    const selected = document.querySelectorAll('.selected');
+    const selectors = document.querySelectorAll(".team-selector li");
+    const selected = document.querySelectorAll(".selected");
 
-    selectors[data].classList.add('selected');
+    selectors[data].classList.add("selected");
 
     if (selected.length > 0) {
-      selected[0].classList.remove('selected');
+      selected[0].classList.remove("selected");
     }
     let prj = [];
     allProjects.map((project) => {
@@ -34,7 +34,8 @@ function Projects() {
     <div className="w-screen h-full min-h-screen flex flex-col justify-start items-start">
       <div
         className="w-full bg-blue flex justify-evenly pt-10 items-center"
-        style={{ minHeight: '30vh', height:"auto", padding:"10px 0" }}>
+        style={{ minHeight: "30vh", height: "auto", padding: "10px 0" }}
+      >
         <div className="page w-3/5 h-full flex flex-row items-center justify-center ">
           <div className="page flex flex-col w-4/5 full-width works-header">
             <span className="text-white">Our projects</span>
@@ -58,7 +59,8 @@ function Projects() {
               key={id}
               value={id}
               onClick={(e) => handleLabel(e.target.value)}
-              className="w-fit cursor-pointer rounded-full bg-light text-grey px-5 py-3">
+              className="w-fit cursor-pointer rounded-full bg-light text-grey px-5 py-3"
+            >
               {label}
             </li>
           );
@@ -67,7 +69,8 @@ function Projects() {
       <div className="w-full flex flex-col items-center justify-center">
         <div
           className="w-4/5 projects flex flex-wrap justify-around items-center gap-10"
-          data-aos={`fade-up`}>
+          data-aos={`fade-up`}
+        >
           {projects.map((project, id) => (
             <div className="flex flex-col items-start full-width" key={id}>
               <div className="bg-cream flex justify-center items-center img-bg">
@@ -76,15 +79,27 @@ function Projects() {
               <span className="flex w-full justify-between text-lg text-blue font-medium mt-5">
                 {project.name}
                 <div className="btn-container flex gap-2">
-
-                <button className='prj-btn'>More Info</button>
-                <button className='prj-btn'>Live</button>
+                  {/* <button className='prj-btn'>More Info</button> */}
+                  {project.link && 
+                  <a
+                    className="prj-btn"
+                    target="_blank"
+                    href={`https://${project?.link}`}
+                  >
+                    {project.link?"Live":"Not Available"}
+                  </a>
+                  }
                 </div>
               </span>
               <div className="flex flex-col gap-2">
-              {project.keywords.map((keyword,key)=>(
-                <span className='keyword bg-cream p-2 text-greydef' key={`${keyword}-${key}`}>{keyword}</span>
-              ))}
+                {project.keywords.map((keyword, key) => (
+                  <span
+                    className="keyword bg-cream p-2 text-greydef"
+                    key={`${keyword}-${key}`}
+                  >
+                    {keyword}
+                  </span>
+                ))}
               </div>
             </div>
           ))}

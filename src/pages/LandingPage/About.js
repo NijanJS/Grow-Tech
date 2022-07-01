@@ -24,7 +24,7 @@ function Landingpage() {
             className="body w-3/5 leading-loose flex flex-col gap-2"
             style={{ color: '#596579', fontSize: '16px' }}>
             <p>
-              We are Nepal based <strong>IT solution agency,</strong> focused on
+              We are a Nepal based <strong>IT solution agency,</strong> focused on
               creating creative & interactive web experiences for aspiring &
               established businesses and enterprises.
             </p>

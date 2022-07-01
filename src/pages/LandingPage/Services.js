@@ -50,8 +50,8 @@ function Services() {
         >
           <div className="page header flex flex-col service-header gap-3 item-end h-2/6 mt-5 z-10">
             <span className="text-grey">Area of focus</span>
-            <h2 className="sub-header" style={{ color: "#165EAD" }}>
-              Our service
+            <h2 className="sub-header" style={{ color: '#165EAD' }}>
+              Our Services
             </h2>
           </div>
 

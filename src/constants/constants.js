@@ -99,8 +99,8 @@ export const services = [
     id: 1,
     title: "Website Design & Development",
     content: {
-      header: "Devloping a website means creating a user journey end to end.",
-      body: `You need solid planning, a touch of storytelling and a taste of inspiration. From pencil sketches to whiteboard sessions, we think about your project from every angle and every marketing platform.`,
+      header: 'Make people aware of the services and/or products you are offering.',
+      body: 'Building a website enables you to get in touch with your customers and prospects. Communicate with your visitors effectively, interact with your audience, improve connectivity,  prove your reliability, show your products/ services and/or your experience, expertise, and all in the same place.',
       img: Web,
       techstack: ["React", "Vue", "Html"],
     },
@@ -110,9 +110,8 @@ export const services = [
     id: 2,
     title: "Mobile App Design & Development",
     content: {
-      header: "Mobile Applications let you reach out to the great masses",
-      body: `Mobile is the future of digital world. Deliver speed, flexibility and 
-      mobility with our bespoke app development ser vices.`,
+      header: 'Reach Global Audience, Access from Different Platforms',
+      body: 'Mobile apps allow users to have easy, functional access to information, products, services and processes that they need in real-time and are optimised for hands-on interactions. It allows you to enhance the experience of customers by creating a more personal experience.',
       img: Mobile,
       techstack: ["Flutter", "Java", "Firebase"],
     },
@@ -122,10 +121,8 @@ export const services = [
     id: 3,
     title: "Hosting",
     content: {
-      header: "Hosting is a crucial step in digital products.",
-      body: `Hosting is a crucial step in digital products. We manage multiple 
-      hosting platform to deploy application.`,
-      techstack: ["Java", "Mongo DB", "My Sql"],
+      header: 'Make your site visible, Keep it running.',
+      body: 'Web hosting allows you to host a website and make it available for everyone on the internet. We help you to choose and find a perfect host for your product.',
       img: Hosting,
     },
     bg: "#E6FAF0",
@@ -134,9 +131,8 @@ export const services = [
     id: 4,
     title: "Enterprise App Development",
     content: {
-      header: "Manage all your enterprise operations with applications.",
-      body: `Simplfying and Digitizing work is must. We help you to build a per fect 
-      enterprise application that doesn’t fails and suppor t your work.`,
+      header: 'Build Loyalty, Increase your Accessibility and Reinforce your Brand.',
+      body: 'Applications help businesses reach a vast target audience and promote building an efficient app marketing strategy. It promotes brand recognition, encourages brand loyalty- , increases sell-through, socially integrates and gives you quick access to your top customer data.',
       img: Enterprise,
       techstack: ["AWS", "My Sql", "Mongo DB"],
     },
@@ -245,9 +241,9 @@ export const projects = [
     keywords: ["Healthcare", "Web App & Mobile App"],
     description: {
       first:
-        "Digi Medical Sewa is an emerging healthcare service established to provide world-class quality health care to the citizen of Nepal without compromising quality from the comfort of your home. We provide preventive, promotive, and curative services to maintain quality of life with an entirely new concept of hassle-free, convenient, and high-quality healthcare services at patient's doorsteps.",
+        "Digi Medical Sewa is an emerging healthcare service established to provide world-class quality health care to the citizens of Nepal without compromising quality from the comfort of your home. We provide preventive, promotive, and curative services to maintain quality of life with an entirely new concept of stress-free, convenient, and high-quality healthcare services at patient's doorsteps.",
       second:
-        " The idea of providing effective medical services that fulfill the community's needs of affordable yet quality healthcare solutions is Digi Medical's sole concern. We are professionals at work; we uphold human values.",
+        " The idea of providing effective medical services that fulfil the community's needs of affordable yet quality healthcare solutions is Digi Medical's sole concern. We are professionals at work; we uphold human values.",
     },
   },
   {
@@ -258,9 +254,9 @@ export const projects = [
     keywords: ["E-commerce", "Web App"],
     description: {
       first:
-        " Gyapu Trading is a B2B ecommerce website. It is specailly developed to solve the problem of business of buying goods in abundants and in a easy ways.rative services to maintain quality of life with an entirely new concept of hassle-free, convenient, and high-quality healthcare services at patient's doorsteps.",
+        " Gyapu Trading is a B2B ecommerce website. It is specailly developed to solve the problem of business of buying goods in abundance and in an easy ways. We maintain the high quality of life in a very hassle-free and convenient healthcare services at customer's threshold.",
       second:
-        "The idea of providing effective medical services that fulfill the community's needs of affordable yet quality healthcare solutions is Digi Medical's sole concern. We are professionals at work; we uphold human values.",
+        "The end view of delivering quality trading of services and products that satisfy the business’s needs of high quality yet personalised and engaging results is Gyapu Trading. We are distinguished; we uphold our customers' values. ",
     },
   },
 ];
@@ -271,6 +267,7 @@ export const allProjects = [
     id: 3,
     img: XcelTrip,
     name: "Xcel Trip",
+    link:"www.xceltrip.com",
     lable: "Enterprise",
     keywords: ["Travel & Tour", "Web App & Mobile App"],
     description: {
@@ -284,6 +281,7 @@ export const allProjects = [
     id: 4,
     img: BestWedding,
     name: "Best Wedding",
+    link:"www.bestwedding.com",
     lable: "Mobile",
     keywords: ["Ecommerce", "Mobile App"],
     description: {
@@ -304,7 +302,7 @@ export const testimonials = [
     },
     img: client,
     testimonial: `
-    We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.
+    For us at Gyanpu Trading, working with Grow Tech has been the best decision for our online business. Their full-service offer is professional, fast, reliable and absolutely unrivalled in terms of value, quality, support and performance.
     `,
   },
   {
@@ -316,7 +314,19 @@ export const testimonials = [
     },
     img: client1,
     testimonial: `
-    Test data is data which has been specifically identified for use in tests, typically of a computer program. Some data may be used in a confirmatory way, typically to verify that a given set of input to a given function produces some expected result
+    From day one, the people of Grow Tech have delivered all possible outcomes as demanded. I must say that all the developers, designers and management are dedicated and it became a part of my beautiful corporate journey.
+    `,
+  },
+  {
+    id:3,
+    client: {
+      name: 'Jasmine XYZ',
+      title: 'Vice President',
+      company: 'Prabhu Capital',
+    },
+    img: client1,
+    testimonial: `
+    We greatly appreciate Grow Tech’s dedication and creativity in re-branding Prabhu Captial’s new Local IPO image and service. The vibe, level of inquiry, feedback, and commitment at our presentation and our newly designed website at the recent market was very positive.
     `,
   },
 ];
@@ -354,7 +364,7 @@ export const clients = [
 
 export const quickLinks = [
   { title: "About Us", path: "/about" },
-  { title: "Our Works", path: "/works" },
+  { title: "Our Works", path: "/works/projects" },
   { title: "Our Services", path: "/services" },
   { title: "Contact Us", path: "/contact" },
   { title: "Careers", path: "/careers" },

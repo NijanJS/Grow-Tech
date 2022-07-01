@@ -60,7 +60,7 @@ function Services() {
                         </li>
                       ))}
                     </div>
-                    <Link to='/works'>
+                    <Link to='/works/projects'>
                     <Button
                       title="See Our Works"
                       styles="primary trans"

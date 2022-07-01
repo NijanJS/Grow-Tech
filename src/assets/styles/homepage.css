@@ -235,6 +235,9 @@ textarea {
     align-items: flex-start;
   }
 }
+.body p{
+  text-align: justify;
+}
 @media (max-width: 640px) {
   .projects-info {
     width: 80%;
