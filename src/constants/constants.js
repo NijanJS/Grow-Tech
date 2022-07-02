@@ -62,6 +62,8 @@ import RohitSingh from "../assets/images/team/rohit-singh.png";
 import RanjitShrestha from "../assets/images/team/ranjit-shrestha.png";
 import SarahGorkhali from "../assets/images/team/sarah-gorkhali.png";
 import NootanBhandari from "../assets/images/team/nootan-bhandari.png";
+import AjitPudasaini from "../assets/images/team/ajit-pudasaini.png";
+
 
 //Products
 import Product1 from "../assets/images/Products/Product1.png";
@@ -238,6 +240,7 @@ export const projects = [
     img: Digimedical,
     name: "Digimedical Sewa",
     lable: "Websites",
+    link:"www.digimedicalsewa.com/",
     keywords: ["Healthcare", "Web App & Mobile App"],
     description: {
       first:
@@ -296,13 +299,13 @@ export const testimonials = [
   {
     id: 1,
     client: {
-      name: "Nijan Adhikari",
-      title: "Front End Developer",
-      company: "GrowTech",
+      name: "Arun Bista",
+      title: "Founder/CEO",
+      company: "Nepal Calls You",
     },
-    img: client,
+    img: "",
     testimonial: `
-    For us at Gyanpu Trading, working with Grow Tech has been the best decision for our online business. Their full-service offer is professional, fast, reliable and absolutely unrivalled in terms of value, quality, support and performance.
+    For us at Nepal Calls You, working with Grow Tech has been the best decision for our online business. Their full-service offer is professional, fast, reliable and absolutely unrivalled in terms of value, quality, support and performance.
     `,
   },
   {
@@ -312,7 +315,7 @@ export const testimonials = [
       title: "Vice President",
       company: "DigiMedical",
     },
-    img: client1,
+    img: "",
     testimonial: `
     From day one, the people of Grow Tech have delivered all possible outcomes as demanded. I must say that all the developers, designers and management are dedicated and it became a part of my beautiful corporate journey.
     `,
@@ -320,13 +323,25 @@ export const testimonials = [
   {
     id:3,
     client: {
-      name: 'Jasmine XYZ',
-      title: 'Vice President',
+      name: 'Krishna Giri',
+      title: 'COO',
       company: 'Prabhu Capital',
     },
-    img: client1,
+    img: "",
     testimonial: `
     We greatly appreciate Grow Tech’s dedication and creativity in re-branding Prabhu Captial’s new Local IPO image and service. The vibe, level of inquiry, feedback, and commitment at our presentation and our newly designed website at the recent market was very positive.
+    `,
+  },
+  {
+    id: 4,
+    client: {
+      name: "Sailendra Mangranti",
+      title: "Founder",
+      company: "Best Wedding",
+    },
+    img: "",
+    testimonial: `
+    We are very delighted to work with GrowTech Pvt. Ltd. for our project "Best Wedding". The company really put a lot of efforts to add value to our product/project and provided the services better than expected. 
     `,
   },
 ];
@@ -584,7 +599,7 @@ export const Teams = [
         ln: "",
       },
       {
-        img: "",
+        img: AjitPudasaini,
         name: "Ajit Pudasaini",
         position: "Back End Developer",
         fb: "",

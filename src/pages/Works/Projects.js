@@ -76,7 +76,7 @@ function Projects() {
               <div className="bg-cream flex justify-center items-center img-bg">
                 <img src={project.img} className="project-img full-width" />
               </div>
-              <span className="flex w-full justify-between text-lg text-blue font-medium mt-5">
+              <span className="project flex w-full justify-between text-lg text-blue font-medium mt-5">
                 {project.name}
                 <div className="btn-container flex gap-2">
                   {/* <button className='prj-btn'>More Info</button> */}

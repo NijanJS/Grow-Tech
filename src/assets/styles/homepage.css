@@ -226,6 +226,8 @@ textarea {
   }
   .services div {
     min-width: 300px;
+    max-height: 100%;
+    height: fit-content;
   }
   .service-body p {
     width: 90%;
@@ -234,19 +236,20 @@ textarea {
   .career-title {
     align-items: flex-start;
   }
+  .testi{
+    height: fit-content !important;
+    padding: 10px;
+  }
+  .testi .testimonials{
+    width: 40% !important;
+  }
 }
-.body p{
+.body p {
   text-align: justify;
 }
 @media (max-width: 640px) {
   .projects-info {
     width: 80%;
-  }
-  .testi {
-    flex-direction: column;
-    gap: 0;
-    font-size: 14px;
-    height: max-content !important;
   }
   .nextButton,
   .previousButton {
@@ -255,9 +258,6 @@ textarea {
   .img-info > img {
     width: 100px;
     height: 100px;
-  }
-  .testimonials {
-    width: 80%;
   }
   .top {
     left: 0;
@@ -291,6 +291,17 @@ textarea {
     width: 100%;
     text-align: left;
   }
+  .clients{
+    display: flex !important;
+    flex-direction: column;
+  }
+  .clients div {
+    gap: 10px ;
+  }
+  .project{
+    display: flex; flex-direction: column;
+    margin: 10px 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -298,6 +309,24 @@ textarea {
   .homepage {
     width: 100vw;
     height: 100vh;
+  }
+  .testi {
+    flex-direction: column;
+    gap: 0;
+    font-size: 14px;
+    width: 100% !important;
+    height: max-content !important;
+  }
+  .testi .img-info img{
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .testi .testimonials p{
+    width: fit-content !important;
+    margin: 0 auto;
+  }
+  .control-dots{
+    margin: 0 !important;
   }
   .img-size {
     width: 100%;
@@ -560,6 +589,7 @@ textarea {
   left: 0 !important;
   top: 0 !important;
 }
+
 .vertical-lines {
   content: "";
   background-color: var(--c-pri);
@@ -619,9 +649,12 @@ textarea {
 .dd-link:nth-last-child(1) {
   border: none;
 }
-.slide{
+.slide {
   background-color: white !important;
 }
-.dot{
+.dot {
   background-color: #192638 !important;
+}
+.slide img {
+  max-width: 100% !important;
 }

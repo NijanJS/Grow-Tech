@@ -44,12 +44,14 @@ function Projects() {
                   {project.description.second}
                 </p>
               </div>
+              <a target="_blank" href={`https://`+project.link}>
               <Button
                 title="Visit Site"
                 type="primary"
                 styles="trans cream"
                 span="text-grey"
               />
+              </a>
             </div>
             <div className="project-img" data-aos="fade-up">
               <img src={project.img} />

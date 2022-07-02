@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { testimonials } from '../../constants/constants';
 import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import avatar from "../../assets/images/clients/avatar.svg";
 function Testimonials() {
   var [count, setCount] = useState(0);
   const [data, setData] = useState(testimonials[count]);
@@ -30,14 +31,14 @@ function Testimonials() {
             What clients are saying about Grow Tech
           </span>
         </div>
-        <Carousel infiniteLoop showIndicators >
+        <Carousel infiniteLoop={true} autoPlay>
           {testimonials.map((testimonial, index) => (
             <div
               className="testi w-5/6 flex justify-center items-center gap-20"
               key={index}>
               <div className="img-info flex flex-col items-start gap-5">
                 <img
-                  src={testimonial.img}
+                  src={testimonial.img||avatar}
                   className="client shadow-xl "
                   alt=""
                 />
@@ -60,7 +61,7 @@ function Testimonials() {
                   style={{ fontSize: '72px' }}>
                   “
                 </span>
-                {testimonial.testimonial}
+                <p>{testimonial.testimonial}</p>
               </div>
             </div>
           ))}

@@ -10,7 +10,7 @@ function Careers() {
   return (
     <div className="flex w-screen flex-col justify-center items-center">
       <div className="w-screen h-screen flex justify-center items-center">
-        <BG styles="opacity-30 left-0 homepage" />
+        <BG styles="opacity-50 left-0 homepage" />
         <div className="page w-5/6 h-full flex justify-evenly items-center">
           <div className="page w-3/5 h-2/6 ml-10 text-section flex flex-col justify-center items-start gap-3 full-width">
             <div className="header page">

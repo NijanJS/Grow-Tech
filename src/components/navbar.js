@@ -39,7 +39,7 @@ function Navbar() {
 							<img src={nav2 ? whiteLogo : logo} alt='' className='logo_img' />
 						</Link>
 					</div>
-					<ul className='navmenu row flex space-x-12 items-center'>
+					<ul className='navmenu row flex space-x-12 items-center' >
 						{navlinks.map((link, id) => (
 							<Link
 								onClick={checkNav}
