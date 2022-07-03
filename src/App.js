@@ -18,7 +18,7 @@ import Products from './pages/Works/Products';
 import Product from './pages/Works/components/Product';
 function App(props) {
   const location = useLocation();
-  const [load, setLoad]=useState(false);
+  const [load, setLoad]=useState(true);
   useEffect(()=>{
     window.scrollTo({top:0, behavior:"auto"});
   },[location])
